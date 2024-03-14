@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto' , sans-serif;
+}
+.nav {
+    padding: 15px 5px;
+    background-color: rgba(0, 157, 255, 0.986);
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 740px;
+}
+.nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #fff;
+}
